@@ -42,7 +42,7 @@ Modern ve interaktif bir tabu oyunu web uygulaması. Dokuz Eylül Üniversitesi 
 
 ## 🚀 Canlı Demo
 
-[Oyunu Oyna](https://senacirak.github.io/tabu-app/) *(GitHub Pages üzerinden)*
+[Oyunu Oyna](https://kafeinsnea.github.io/Tabu-App/) *(GitHub Pages üzerinden)*
 
 ## 📱 Ekran Görüntüleri
 
