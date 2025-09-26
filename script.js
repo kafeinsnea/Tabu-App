@@ -657,13 +657,15 @@ function togglePause() {
     if (gameState.isPaused) {
         // Devam ettir
         gameState.isPaused = false;
-    startTimer();
-        gameElements.buttons.pause.textContent = '⏸ Duraklat';
+        startTimer();
+        // Şimdi devam ediyor, o yüzden "Duraklat" göster
+        document.querySelector('[onclick="pauseGame()"]').textContent = '⏸ Duraklat';
     } else {
         // Duraklat
         gameState.isPaused = true;
         stopTimer();
-        gameElements.buttons.pause.textContent = '▶ Devam Et';
+        // Şimdi durdu, o yüzden "Devam Et" göster
+        document.querySelector('[onclick="pauseGame()"]').textContent = '▶ Devam Et';
     }
 }
 
